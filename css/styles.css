@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #e0e7f1;
+    background-color: #ffffff;
 }
 
 /* Header and Navigation Styles */
@@ -47,6 +47,7 @@ header .nav-links li a:hover {
 #about {
     padding: 50px;
     background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-container {
@@ -70,8 +71,8 @@ header .nav-links li a:hover {
     width: 100%;
     max-width: 300px;
     border-radius: 8%; 
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-    border: 4px solid #44a4f1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border: 4px solid #101010;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -89,12 +90,12 @@ header .nav-links li a:hover {
     margin-right: 15px;
     font-size: 1.2em;
     text-decoration: none;
-    color: #3336da; /* Customize icon color */
+    color: #090909; 
     transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: #555; /* Darker color on hover */
+    color: #0020f1;
 }
 
 .social-icon i {
@@ -103,10 +104,12 @@ header .nav-links li a:hover {
 
 /* Section Styling */
 section {
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(255, 255, 255);
     padding: 15px;
     margin: 15px;
     border-radius: 5px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    
 }
 
 #home {
@@ -185,7 +188,7 @@ ul li {
     width: 150px;
     text-align: center;
     font-weight: bold;
-    color: #3336da;
+    color: #030303;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -261,7 +264,7 @@ footer {
     max-width: 300px;
     border-radius: 8%; 
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
-    border: 4px solid #44a4f1; /* Adds a border to match your color scheme */
+    border: 4px solid #abd3f3; 
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition on hover */
 }
 
